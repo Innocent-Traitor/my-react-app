@@ -10,6 +10,14 @@
   margin: 2% auto 0% auto;
 }
 
+.preview-div {
+  width: 80vw;
+  min-height: 60vh;
+  margin: 50px auto 30px auto;
+  background-color: white;
+  border: 3px solid black;
+}
+
 .header {
   background-color: var(--header-color);
   width: 100%;
@@ -19,6 +27,14 @@
   border-right: 3px solid black;
   border-left: 3px solid black;
   border-bottom: 1px solid black;
+}
+
+.preview-header {
+  border-bottom: 1px solid black;
+  background-color: var(--header-color);
+  width: 100%;
+  height: 10%;
+  margin: 0;
 }
 
 .header-text{
@@ -36,5 +52,12 @@
   border-right: 3px solid black;
   border-left: 3px solid black;
   resize: none;
+}
+
+.preview {
+  width: 100%;
+  height: 90%;
+  padding: 0;
+  margin: 0% auto 0% auto;
 }
 
