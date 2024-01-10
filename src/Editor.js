@@ -1,7 +1,7 @@
 import './App.css';
 
 
-function Editor(props) {
+function Editor({value, onChange}) {
   return (
     <div className="editor">
       <header className='header'>
@@ -11,7 +11,9 @@ function Editor(props) {
         className='editor-area' 
         id='editor' 
         placeholder='text'
-        onChange={0}>
+        value={value}
+        onChange={onChange}
+        >
       </textarea>
     </div>
   );
