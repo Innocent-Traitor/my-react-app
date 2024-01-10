@@ -7,4 +7,4 @@ function Preview() {
     );
   }
   
-  export default Preveiw;
+  export default Preview;

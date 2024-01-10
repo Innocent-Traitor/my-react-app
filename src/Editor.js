@@ -4,7 +4,7 @@ function Editor() {
   return (
     <div className="editor">
       <header className='header'>
-        <label className='header-text' for='editor'>Markdown Editor</label>
+        <p className='header-text' for='editor'>Markdown Editor</p>
       </header>
       <textarea className='editor-area' id='editor' placeholder='text'>
 
