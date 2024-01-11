@@ -11,6 +11,7 @@ function App() {
   function handleChange(e) {
     setText(e.target.value);
   }
+
   return (
     <>
       <Editor 

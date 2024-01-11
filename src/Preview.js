@@ -9,7 +9,7 @@ function Preview({value}) {
         <header className='preview-header'>
             <p className='header-text'>Markdown Preview</p>
         </header>
-        <div className='preview' dangerouslySetInnerHTML={{__html: element}}>
+        <div id='preview' className='preview' dangerouslySetInnerHTML={{__html: element}}>
         </div>
       </div>
     );
